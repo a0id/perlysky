@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1 class="text-center" style="margin-bottom:1.5%">Add Phrases</h1>
+<div class="container">
+    <form action="" method="POST">
+        <div class="form-group">
+            <h5 style="margin-top: 1.5%">Enter the Perly Phrase</h5>
+            <input name="perly" class="form-control"></input>
+
+            <h5 style="margin-top: 1.5%">Enter the English Phrase</h5>
+            <input name="english" class="form-control"></input>
+
+            <h5 style="margin-top: 1.5%">Leave your name if you feel like it</h5>
+            <input name="name" class="form-control"></input>
+        </div>
+        <button class="btn btn-primary" type="submit">Add Phrase</button>
+    </form>
+</div>
+{% endblock %}

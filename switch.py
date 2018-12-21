@@ -1,16 +1,17 @@
 import json
 
+def process(text):
+    text = text.lower()
+    text = text.replace(",", "")
+    text = text.replace("'", "")
+    text = text.replace(".", "")
+    return text
+
 class Switch():
     def __init__(self, text):
-        self.text = self.process(text)
+        self.text = process(text)
         self.phrases = { }
         self.load()
-    def process(self, text):
-        text = text.lower()
-        text = text.replace(",", "")
-        text = text.replace("'", "")
-        text = text.replace(".", "")
-        return text
     def load(self):
         with open("static/phrases.json", "r") as f:
             self.phrases = json.loads(f.read())
