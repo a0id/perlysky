@@ -4,7 +4,6 @@ def process(text):
     text = text.lower()
     text = text.replace(",", "")
     text = text.replace("'", "")
-    text = text.replace(".", "")
     return text
 
 class Switch():
