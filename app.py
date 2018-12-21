@@ -36,8 +36,8 @@ def add():
             f.write(name + "\n")
         Add(perly, english)
     return render_template("add.html")
-@app.route("/add", methods=["GET"])
-def add():
+@app.route("/view", methods=["GET"])
+def view():
     phrases = { }
     header = ' \
         <table class="table"> \
@@ -45,7 +45,6 @@ def add():
                 <tr> \
                     <th scope="col">Perly Text</th> \
                     <th scope="col">English</th> \
-                    <th scope="col">Handle</th> \
                 </tr> \
             </thead> \
             <tbody>'

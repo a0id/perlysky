@@ -1,11 +1,11 @@
 {
-    "kill that": "close this chrome tab",
-    "dont jump off a bridge": "don\u2019t stress over this problem",
-    "homework land": "what you have for homework",
     "hop on des a minute": "I am going to graph this on desmos.com/calculator now",
-    "this is an honors level problem": "this is a harder problem",
-    "*holds chair*": "I AM SO EXCITED SO I MUST GRAB SOMETHING",
-    "sorry charlie": "it looks like you were wrong on that problem so lets try again",
+    "dont jump off a bridge": "don\u2019t stress over this problem",
     "quickcheck des a minute": "check our answer on desmos.com/calculator",
-    "des a minute": "go to desmos.com/calculator"
+    "des a minute": "go to desmos.com/calculator",
+    "sorry charlie": "it looks like you were wrong on that problem so lets try again",
+    "*holds chair*": "I AM SO EXCITED SO I MUST GRAB SOMETHING",
+    "this is an honors level problem": "this is a harder problem",
+    "homework land": "what you have for homework",
+    "kill that": "close this chrome tab"
 }
