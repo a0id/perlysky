@@ -1,0 +1,8 @@
+{% extends "layout.html" %}
+{% block body %}
+<h1 class="text-center" style="margin-bottom:1.5%">View Phrases</h1>
+<p>Here is the list of Perly phrases that are currently in the database.
+<div class="container">
+    {{ rendered|safe }}
+</div>
+{% endblock %}
